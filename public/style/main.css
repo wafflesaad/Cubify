@@ -26,10 +26,12 @@ nav{
     
 }
 
-nav .newStyle{
-    height: 80vh;
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
+.newStyle{
+    
+    height: 80vh !important;
+    border-bottom-left-radius: 50% 20% !important;
+    border-bottom-right-radius: 50% 20% !important;
+    transition: 0.5s ease;
 }   
 
 .logocont{
