@@ -1,8 +1,4 @@
-.main-container{
-    width: 100vw;
-    height: 100vh;
-    background-color: linear-gradient(to right, rgb(157, 0, 255), rgba(157, 0, 255, 0.493));
-}
+
 
 #logo{
     width: 30vw;
@@ -32,6 +28,7 @@ nav{
     border-bottom-left-radius: 50% 20% !important;
     border-bottom-right-radius: 50% 20% !important;
     transition: 0.5s ease;
+    box-sizing: border-box;
 }   
 
 .logocont{
@@ -104,24 +101,26 @@ nav button:hover{
 
 .sec{
     width: 100vw;
-    height: 70vh;
+    height: 40vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    margin: 0;
 }
 
 .sec .content{
     width: 40vw;
-    height: 60vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .sec .img{
-    width: 20vw;
+    /* width: 20vw; */
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,6 +149,7 @@ footer{
     border-top-right-radius: 50% 20% !important;
 
     color: rgb(214, 214, 214);
+    box-sizing: border-box;
 }
 
 footer h1{
