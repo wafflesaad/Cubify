@@ -1,0 +1,75 @@
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: linear-gradient(to right, rgb(157, 0, 255), rgba(157, 0, 255, 0.493));
+}
+
+#logo{
+    width: 30vw;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(to right, rgba(157, 0, 255, 0.203) , rgba(157, 0, 255, 0));
+}
+
+/* navstuff */
+
+nav{
+    display: flex;
+    width: 100vw;
+    background-color: rgb(157, 0, 255);
+    height: 100vh;
+    flex-direction: column;
+    
+}
+
+nav .newStyle{
+    height: 80vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}   
+
+.logocont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* height: 230px; */
+    /* margin-top: 10vh; */
+}
+
+.logocont h1{
+    color: rgb(214, 214, 214);
+    font-size: 3em;
+    margin: 10px;
+    font-weight: 700;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+nav button{
+    background-color: rgb(98, 5, 156);
+    color: rgb(214, 214, 214);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 10vw;
+    /* padding-left: 10vw; */
+    padding: 2vh 10vw;
+    margin-top: 3vh;
+}
+
+nav button:hover{
+    color: rgb(98, 5, 156);
+    background-color: rgb(214, 214, 214); 
+    transition: 0.5s;   
+}
+
