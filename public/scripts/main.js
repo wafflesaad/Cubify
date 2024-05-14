@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function() {
+    AOS.init();
+  });
 console.log("Script Running!");
 const learn = document.getElementById("learnmore");
 const navi = document.getElementById("navi");
